@@ -15,7 +15,6 @@ OBJ    = lib.o test-library.o
 test:
 	echo test
 
-
 test-library.out: $(OBJ)
 	gcc -o $@ $^ $(CFLAGS) -lm -lncurses -Os 
 
