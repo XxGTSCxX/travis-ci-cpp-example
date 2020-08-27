@@ -12,6 +12,10 @@ OBJ    = lib.o test-library.o
 %.o: %.c $(DEPS)
 	$(CC) -c -o $@ $< $(CFLAGS) 
 
+test:
+	echo test
+
+
 test-library.out: $(OBJ)
 	gcc -o $@ $^ $(CFLAGS) -lm -lncurses -Os 
 
