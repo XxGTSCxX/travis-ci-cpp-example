@@ -1,5 +1,5 @@
 #travis configuration for coverage testing
-language: c
+language: cpp
 
 #sudo: false # only for faster builds
 
@@ -21,8 +21,8 @@ before_script:
 
 # Compiler selection
 compiler:
-  - clang
-  - gcc
+  - clang++
+  - g++
 
 
 # Build steps
