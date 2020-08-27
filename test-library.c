@@ -173,6 +173,6 @@ int main()
 	else
 		printf ("tests failed.\n");
 
-    return result;  /* remember the value 0 is considered passing in a travis-ci sense */
+    return -1 /*result*/;  /* remember the value 0 is considered passing in a travis-ci sense */
 
 }
