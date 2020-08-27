@@ -22,7 +22,7 @@ before_script:
 # Compiler selection
 compiler:
   - clang++
-  - g++
+  - g++ -Werror -Wextra -Wall -pedantic -ansi
 
 
 # Build steps
