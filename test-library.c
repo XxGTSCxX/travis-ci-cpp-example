@@ -168,6 +168,8 @@ int main()
 	printf("Running Example tests .. \n");
 	result = run_tests();
 
+	int test;
+
 	if (result == S_OK) 
 		printf ("tests passed.\n");
 	else
